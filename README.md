@@ -19,7 +19,7 @@ a recent congessional election.
 
 ## Summary
 The image below shows the results of the election.
-![Election_results](/Resources/election_screenshot.png)
+![School_results](/Resources/district_summary.png)
 
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
