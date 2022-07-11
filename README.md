@@ -3,40 +3,50 @@
 # School District Analysis
 
 ## Project Overview
-The purpose of the project was to perform an audit of an election that was done in Colorado.
-A Employee from the Colorado Elections board has approached us to perfrom the audit for 
-a recent congessional election.
+The purpose of the project was to perform an analysis for a schools districts fifteen High shcools performance for the year.
+The school board had discovered acedemic dishonesty in grade reporting for the entire nineth grade class of Thomas High Schools.
+The board had made a request that we omit the nineth grade classes acedemic results from our anaylsis. Once we have removed the 
+nineth grade data Maria requested that we redo our inital analysis of the districts performance.
 
-1. Calculate the total number of votes cast
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+1. Remove the THS 9th grade reading and math results.
+2. Revaluate THS grades by replaceing with sutdents 10-12th with grades above 70%.
+3. Evalutate schools by size, type and spengind budget
+4. Determine the top five and bottom five schools.
+5. Remove unnecessaary prefixes and suffixes from student names.(Dr.,md,Phd,etc)
+
 
 ## Resources
-- Data source: election_results.csv
-- Software: Python 3.7.6, Visual studio code 1.68.1
+- Data source: schools_complete.csv, and student_complete.csv
+- Software: Anaconda, Jupiter Lab, python 3.7.6,and pandas.
 
 ## Summary
-The image below shows the results of the election.
+The image below shows a summary of the total number of schools, students, and budget as well as the average
+reading, and math scores. 
 ![School_results](/Resources/district_summary.png)
 
-The analysis of the election show that:
-- There were 369,711 votes cast in the election.
-- The candidates were:
-    - Charles Casper Stockham
-    - Diana Degette
-    - Raymon Anthony Doane
-- The candidate results were:
-    - Charles Casper Stockham received "23%" of the vote and "85,213" number of the votes.
-    - Diana Degette received "73.8%" of the vote and "272,892" number of the votes.
-    - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of the votes.
-- The winner of the election was:
-    - Candidate ("Diana Degette") , who received "73.8%" of the vote and "272,892" number of votes.
+The analysis of the School district shows that:
+- There were 15 schools.
+- Total students was 39,170
+- Total District budget was $24,649,428.00
+- Average Math score was 78.9%
+- Average reading schore was 81.9%
+- Overall passing Math was 74.8 %
+- Overall passing Reading was 85.7%
+- Overall Passing was 64.9%
+- Charter schools perform better
+- Schools with larger populations seem to perform less
+
+
+### The images below shows the top five performing schools and the 
+### bottoms five performing schools.
+![School_results](/Resources/top_five_schools.png)
+![School_results](/Resources/bottom_five_schools.png)
+
+### The images below show the results of schools performance based upon 
+### type, size, and spending budget.
+![School_results](/Resources/score_school_size.png)
+![School_results](/Resources/score_school_type.png)
+![School_results](/Resources/score_school_spending.png)
 
 ## Challenge Summary
-The highest Election voting turnout was in Denver and the winner was Dianna Degette with almost 74% of the vote.
-this analysis will be helpful for elections in the future to show possibly candidates should go to campaign more or 
-run more adds. Using Python to script and run analysis shows how helpful pyhton can be to calculate large amounts of data
-and provide a simple result.
-This script can be changed to find the most number of votes for other vaiables if the were provided other than candidates and county. For example the data could include other characteristics, such as demographics and geography, the script can be modified to include these characteristics and the analysis can be broken down even further.
+After reconfiguring the data 
