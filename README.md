@@ -49,4 +49,4 @@ The analysis of the School district shows that:
 ![School_results](/Resources/score_school_spending.png)
 
 ## Challenge Summary
-After reconfiguring the data 
+After reconfiguring the data to not include the entire nineth grade class of Thomas high school for acedemic dishonesty and to only reflect the tenth through twelfth grade the schools scores improved and helped their standing. Thosmas high school had shown to be number two in performance for the entire district. After doing a comparitive analyis of the data I could see a trend and correlation to how size, budget pre child and size afftected a schools performance. It would be interesting to do an analysis on small class room learning versus larger class rooms had an outcome on student performance. Just by the analysis it shows that charters schools seem to outperfrom regular district schools rather signigicantly. I find it interesting that the highest perforfiming school outperformed larger schools with less bugdet per child. 
